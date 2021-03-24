@@ -4,6 +4,8 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/***** HEADER *****/
 .bg_blue {
     background-color: darkblue;
     width: 100%;
@@ -19,6 +21,9 @@
     height: 500px;
     margin: auto;
     position: relative;
+}
+nav {
+    padding-top: 1rem;
 }
 
 .clearfix::after {
@@ -63,13 +68,24 @@ li, a {
 }
 .thead {
     font-size: 50px;
+    padding-bottom: 1.5rem;
 }
 .green {
     background-color: lime;
-    border: 10px solid lime;
+    border: 10px;
+    padding: 12px;
+    border-radius: 5px;
     margin: 0.5px;
 }
-
+.green:hover {
+    background-color: green;
+}
+.login {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+/****** MAIN *****/
 .part1_main {
     background-color: rgb(180, 180, 180);
     text-align: center;
@@ -109,10 +125,15 @@ p {
     font-size: 20px;
     padding: 1rem;
 }
-.toption::after {
-    border-bottom: 1rem solid gray;
+.option > .toption::after {
+    content: '';
+    height: 2px;
+    width: 20%;
+    display: block;
+    background-color: rgb(197, 197, 197);
+    margin: 2rem auto 0;
 }
 .text {
     font-size: 15px;
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem;
 }

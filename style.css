@@ -137,3 +137,31 @@ p {
     font-size: 15px;
     padding: 0.5rem 1rem 1rem;
 }
+
+/* PARTE 3 MAIN */
+
+.part3_main {
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.colonna {
+    width: 50%;
+    float: left;
+}
+.colonna > img {
+    width: 100%;
+    background-size: cover;
+}
+.link3 > a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.part3_main > .colonna:last-child {
+    padding: 5rem;
+}
+
+.colonna > h2, p {
+    padding-bottom: 1rem;
+}
